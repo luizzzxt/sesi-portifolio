@@ -1,0 +1,11 @@
+programa {
+  funcao inicio() {
+    escreva("contando os pares de 1 a 100:\n\n")
+    para(inteiro i = 1; i <= 100; i++){
+      se(i%2 == 0){
+        escreva(i,"\n")
+      }
+    }
+    
+  }
+}
